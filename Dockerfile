@@ -1,19 +1,20 @@
-FROM node:latest
+# Use an official Node.js runtime as the base image
+FROM node:14
 
-# set working directory
-WORKDIR /usr/src/app
+# Set the working directory
+WORKDIR /app
 
-# copy package.json and package-lock.json
+# Copy package.json and package-lock.json
 COPY package*.json ./
 
-# install dependencies
+# Install dependencies
 RUN npm install
 
-# copy rest of the code
+# Copy the application code
 COPY . .
 
-# expose port 3000
+# Expose the application port
 EXPOSE 3000
 
-# start command
+# Start the application
 CMD ["npm", "start"]
