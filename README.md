@@ -8,7 +8,7 @@ Dockerizing a Node.js web application involves creating a Dockerfile that descri
 - Install Git 
 
 ## Usage
-
+:information_source:**Informations**
 - Clone the repository : got clone <<repo_url>>
 
 - Dockerfile starts with the official Node.js 14 runtime as the base image, sets the working directory to /app, copies the package.json and package-lock.json files and runs npm install to install the dependencies.
@@ -26,7 +26,7 @@ Docker image named my-node-app with the application code and dependencies.
 It's worth noting that this is a basic example, and for a real-world app you'll likely need to add more functionality such as health check, logging, monitoring and security, and other aspects of the app such as database, caching and load balancing.
 
 ## Infos
-:information: **Informatique**
+:information_source:**Informations**
 - The package.json and package-lock.json files are used to manage the dependencies of a Node.js web application.
 
 - The package.json file contains information about the application, such as the name, version, and dependencies. It also contains scripts that can be run with the npm command, such as npm start to start the application.
