@@ -9,7 +9,7 @@ Dockerizing a Node.js web application involves creating a Dockerfile that descri
 
 ## Usage
 :information_source:**Informations**
-- Clone the repository : got clone <<repo_url>>
+- Clone the repository : git clone <<repo_url>>
 
 - Dockerfile starts with the official Node.js 14 runtime as the base image, sets the working directory to /app, copies the package.json and package-lock.json files and runs npm install to install the dependencies.
 It then copies the application code to the container and exposes port 3000, and starts the application using the npm start command.
