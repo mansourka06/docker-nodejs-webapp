@@ -5,13 +5,13 @@ body {
     color: #333;
   }
   header {
-    padding: 20px;
+    padding: 12px;
     background: linear-gradient(to right, #0298ca, #43853d); /* Docker blue to Node.js green */
     color: white;
     text-align: center;
   }
   footer {
-    padding: 10px;
+    padding: 6px;
     background: linear-gradient(to right, #0298ca, #43853d); /* Docker blue to Node.js green */
     color: white;
     position: fixed;
