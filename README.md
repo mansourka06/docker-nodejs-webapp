@@ -1,13 +1,22 @@
 # docker-nodejs-webapp
-In this repository is set up a project which Dockerize a Node.js web application.
 
+Building a Node.js Application with Docker.
+
+## Description
+
+Dockerizing a Node.js web application involves creating a Dockerfile that describes the environment and dependencies required to run the application, and then using the Docker build command to create a Docker image.
 
 ## Prerequisites
-Dockerizing a Node.js web application involves creating a Dockerfile that describes the environment and dependencies required to run the application, and then using the Docker build command to create a Docker image.
-- Install Docker
-- Install Git 
+
+To follow this project, you will need:
+
+- **A server running Ubuntu**
+- **Docker installed on your server** :  following this Steps for [How To Install and Use Docker on Ubuntu](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-22-04).
+- **Node.js and npm installed** :  following these [instructions to install Node.js and npm](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-22-04)
+- **A DockerHub account** : refer to this documentation to [create account and get started with Docker Hub](https://docs.docker.com/docker-hub/).
 
 ## Usage
+
 :information_source:**Informations**
 - Clone the repository : git clone <<repo_url>>
 
