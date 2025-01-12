@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #e0f7fa, #ffffff); /* Light blue to white gradient */
+    color: #333;
+  }
+  header {
+    padding: 20px;
+    background: linear-gradient(to right, #0298ca, #43853d); /* Docker blue to Node.js green */
+    color: white;
+    text-align: center;
+  }
+  footer {
+    padding: 10px;
+    background: linear-gradient(to right, #0298ca, #43853d); /* Docker blue to Node.js green */
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+  }
+  main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+  }
+  .content {
+    margin: 20px;
+    max-width: 500px;
+    text-align: left; /* Align text to the left */
+  }
+  .content h2 {
+    color: #43853d; /* Node.js green */
+  }
+  .content p {
+    line-height: 1.6;
+  }
+  .button-container {
+    margin: 30px 0;
+  }
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    color: white;
+    background-color: #0298ca; /* Docker blue */
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  .button:hover {
+    background-color: #026b8a; /* Darker Docker blue */
+  }
+  .button.nodejs {
+    background-color: #43853d; /* Node.js green */
+  }
+  .button.nodejs:hover {
+    background-color: #366a30; /* Darker Node.js green */
+  }
+  img {
+    max-width: 40%;
+    height: auto;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 15px; /* Rounded corners */
+  }
+  
