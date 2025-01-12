@@ -1,5 +1,5 @@
 # Use an official Node.js runtime as the base image
-FROM node:14
+FROM node:20-alpine
 
 # Set the working directory
 WORKDIR /app
@@ -14,7 +14,7 @@ RUN npm install
 COPY . .
 
 # Expose the application port
-EXPOSE 3000
+EXPOSE 8080
 
 # Start the application
-CMD ["npm", "start"]
+CMD [ "node", "app.js" ]
