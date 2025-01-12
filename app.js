@@ -4,7 +4,7 @@ const router = express.Router();
 
 const path = __dirname + '/app/';
 
-const port = 8080;
+const port = 3000;
 
 router.use(function (req,res,next) {
     console.log('/' + req.method);
@@ -19,5 +19,5 @@ router.use(function (req,res,next) {
   app.use('/', router);
   
   app.listen(port, function () {
-    console.log('The NodeJS app is listening on port 8080...')
+    console.log('The NodeJS app is listening on port 3000...')
   })
